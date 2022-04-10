@@ -51,7 +51,7 @@
 
 2014-09-06 Andrew Burgess <andrew.burgess@embecosm.com>
 	Register a `kill-buffer-hook' to ensure that the preview is
-	removed even if the `*Kill Ring*' bufer is killed in an unexpected
+	removed even if the `*Kill Ring*' buffer is killed in an unexpected
 	way, that is, by not calling `browse-kill-ring-quit' but calling
 	`kill-buffer' directly.
 
@@ -142,7 +142,7 @@
 
 	Use Semantic Versioning (www.semver.org) from now.
 
-	Move ChangeLog to seperate file.
+	Move ChangeLog to separate file.
 
 2013-11-17 skyer9 <skyer9 at gmail dot com>
 
